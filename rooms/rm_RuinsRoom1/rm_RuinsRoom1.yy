@@ -6,7 +6,6 @@
   "inheritCreationOrder":false,
   "inheritLayers":false,
   "instanceCreationOrder":[
-    {"name":"inst_3D572425","path":"rooms/rm_RuinsRoom1/rm_RuinsRoom1.yy",},
     {"name":"inst_1C3DFCB8","path":"rooms/rm_RuinsRoom1/rm_RuinsRoom1.yy",},
     {"name":"inst_11B23510","path":"rooms/rm_RuinsRoom1/rm_RuinsRoom1.yy",},
     {"name":"inst_172BFCBF","path":"rooms/rm_RuinsRoom1/rm_RuinsRoom1.yy",},
@@ -21,11 +20,12 @@
     {"name":"inst_1FDC0CFA","path":"rooms/rm_RuinsRoom1/rm_RuinsRoom1.yy",},
     {"name":"inst_5AD4C2E2","path":"rooms/rm_RuinsRoom1/rm_RuinsRoom1.yy",},
     {"name":"inst_4303D8D3","path":"rooms/rm_RuinsRoom1/rm_RuinsRoom1.yy",},
+    {"name":"inst_256B41AA","path":"rooms/rm_RuinsRoom1/rm_RuinsRoom1.yy",},
   ],
   "isDnd":false,
   "layers":[
     {"$GMRInstanceLayer":"","%Name":"Player","depth":0,"effectEnabled":true,"effectType":null,"gridX":20,"gridY":20,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"$GMRInstance":"v4","%Name":"inst_3D572425","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3D572425","objectId":{"name":"Frisk","path":"objects/Frisk/Frisk.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":140.0,"y":140.0,},
+        {"$GMRInstance":"v4","%Name":"inst_256B41AA","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_256B41AA","objectId":{"name":"obj_warp","path":"objects/obj_warp/obj_warp.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.9,"scaleY":1.0,"x":610.0,"y":149.0,},
       ],"layers":[],"name":"Player","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Colisions","depth":100,"effectEnabled":true,"effectType":null,"gridX":20,"gridY":20,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v4","%Name":"inst_1C3DFCB8","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1C3DFCB8","objectId":{"name":"obj_colider","path":"objects/obj_colider/obj_colider.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.7,"scaleY":13.15,"x":7.0,"y":130.5,},
@@ -61,14 +61,14 @@
   "resourceType":"GMRoom",
   "resourceVersion":"2.0",
   "roomSettings":{
-    "Height":254,
+    "Height":265,
     "inheritRoomSettings":false,
     "persistent":false,
-    "Width":674,
+    "Width":675,
   },
   "sequenceId":null,
   "views":[
-    {"hborder":32,"hport":960,"hspeed":-1,"hview":240,"inherit":false,"objectId":{"name":"Frisk","path":"objects/Frisk/Frisk.yy",},"vborder":32,"visible":true,"vspeed":-1,"wport":1280,"wview":320,"xport":0,"xview":0,"yport":0,"yview":0,},
+    {"hborder":32,"hport":960,"hspeed":-1,"hview":240,"inherit":false,"objectId":{"name":"obj_leader","path":"objects/obj_leader/obj_leader.yy",},"vborder":32,"visible":true,"vspeed":-1,"wport":1280,"wview":320,"xport":0,"xview":0,"yport":0,"yview":0,},
     {"hborder":32,"hport":240,"hspeed":-1,"hview":240,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":320,"wview":320,"xport":0,"xview":0,"yport":0,"yview":0,},
     {"hborder":32,"hport":240,"hspeed":-1,"hview":240,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":320,"wview":320,"xport":0,"xview":0,"yport":0,"yview":0,},
     {"hborder":32,"hport":240,"hspeed":-1,"hview":240,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":320,"wview":320,"xport":0,"xview":0,"yport":0,"yview":0,},

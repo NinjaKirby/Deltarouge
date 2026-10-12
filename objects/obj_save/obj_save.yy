@@ -3,6 +3,7 @@
   "%Name":"obj_save",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_save",
@@ -30,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"save",
-    "path":"sprites/save/save.yy",
+    "name":"Spr_save",
+    "path":"sprites/Spr_save/Spr_save.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -1,4 +1,4 @@
-if place_meeting(x, y, obj_player) and !instance_exists(obj_fade){
+if place_meeting(x, y, obj_leader) and !instance_exists(obj_fade){
 
 	var instantiated = instance_create_depth(0, 0, -999999, obj_fade)
 	instantiated.target_x = target_x
